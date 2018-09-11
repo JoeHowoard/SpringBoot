@@ -21,6 +21,8 @@ public class TestController {
 	@Autowired
 	private IUserService userService;
 	
+	
+	
 	@ResponseBody
 	@RequestMapping("/hello.do")
 	public Map<String, Object> hello(){
